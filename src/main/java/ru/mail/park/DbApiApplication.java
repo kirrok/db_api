@@ -8,10 +8,6 @@ import org.springframework.jdbc.core.JdbcTemplate;
 @SpringBootApplication
 public class DbApiApplication {
 
-	@Autowired
-	JdbcTemplate jdbcTemplate;
-
-		
 	public static void main(String[] args) {
 		SpringApplication.run(DbApiApplication.class, args);
 	}
